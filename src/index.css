@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.header {
+  @apply m-3 max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 backdrop:blur-lg bg-white/30 dark:bg-gray-900/30 rounded-lg shadow-md p-4; 
+}
+.search-bar {
+  @apply relative rounded-full bg-gray-100 p-2 border-b border-gray-900 text-center h-9 w-full sm:h-10 outline-none focus:outline-none focus:border-transparent focus:ring-0 sm:text-sm sm:leading-6 ;
+}
