@@ -1,11 +1,11 @@
 
 import {Search, Heart, User, ShoppingCart} from 'lucide-react'
 import Navbar from './Navbar';
-//import logo from '../../assets/logo.jpeg'
+//import logo from '../../assets/logos.jpeg'
 const Header = () => {
   return (
     <>
-    <header className="flex items-center justify-between px-3 sm:px-6 lg:px-8 backdrop-blur-md bg-white/30 border border-gray-300/30 rounded-2xl shadow-md p-4">
+    <header className="flex items-center justify-between px-3 sm:px-30 bg-amber-50 dark:bg-gray-900/30  shadow-md p-4">
   
   {/* Search */}
   <div className="flex items-center w-40 sm:w-60 md:w-72  transition-all active:scale-90 active:opacity-50">
@@ -18,7 +18,7 @@ const Header = () => {
   </div>
 
   {/* Logo */}
-  {/* <img src={logo} alt="OLIVA" className="w-20 sm:w-28 md:w-32" /> */}
+   {/* <img src={logo} alt="OLIVA" className="w-20 sm:w-28 md:w-32 bg-amber-500" />  */}
 
   {/* Icons */}
   <div className="flex items-center gap-2 sm:gap-4 sm:-mr-20">
