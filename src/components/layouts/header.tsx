@@ -1,18 +1,18 @@
 
 import {Search, Heart, User, ShoppingCart} from 'lucide-react'
-import Navbar from '../Navbar';
+import Navbar from './Navbar';
 //import logo from '../../assets/logo.jpeg'
 const Header = () => {
   return (
     <>
-    <header className="flex items-center justify-between px-3 sm:px-6 bg-amber-50 dark:bg-gray-900/30  shadow-md p-4">
+    <header className="flex items-center justify-between px-3 sm:px-6 lg:px-8 backdrop-blur-md bg-white/30 border border-gray-300/30 rounded-2xl shadow-md p-4">
   
   {/* Search */}
   <div className="flex items-center w-40 sm:w-60 md:w-72  transition-all active:scale-90 active:opacity-50">
     <input
       type="text"
       placeholder="Search..."
-      className="w-full h-9 sm:h-10 rounded-full bg-gray-100 px-3 outline-none "
+      className="w-full h-9 sm:h-10 rounded-full bg-gray-100 px-3 outline-none"
     />
     <Search className=" right-1 top-2.5 text-gray-500 w-8 h-8 sm:w-8 sm:h-8 -ml-8 transition-all duration-150 active:scale-75 active:opacity-0 " />
   </div>
@@ -21,7 +21,7 @@ const Header = () => {
   {/* <img src={logo} alt="OLIVA" className="w-20 sm:w-28 md:w-32" /> */}
 
   {/* Icons */}
-  <div className="flex items-center gap-2 sm:gap-4">
+  <div className="flex items-center gap-2 sm:gap-4 sm:-mr-20">
     <Heart className="w-5 h-5 sm:w-6 sm:h-6 transition-all active:scale-90 active:opacity-50" />
     <User className="w-5 h-5 sm:w-6 sm:h-6 transition-all active:scale-90 active:opacity-50" />
     <ShoppingCart className="w-5 h-5 sm:w-6 sm:h-6 transition-all active:scale-90 active:opacity-50" />

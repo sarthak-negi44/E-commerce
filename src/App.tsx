@@ -1,12 +1,12 @@
 
 import Header from './components/layouts/header'
 import {  Route, Routes, BrowserRouter } from 'react-router-dom'
-import Home from './components/pages/Home';
-import Men from './components/pages/Men';
-import Women from './components/pages/Women';
-import Shop from './components/pages/Shop';
-import Products from './components/pages/Products';
-import About from './components/pages/About';
+import Home from './pages/Home';
+import Men from './pages/Men';
+import Women from './pages/Women';
+import Shop from './pages/Shop';
+import Products from './pages/Products';
+import About from './pages/About';
 const App = () => {
   return (
     <div>
