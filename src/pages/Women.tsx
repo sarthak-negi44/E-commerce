@@ -1,9 +1,26 @@
-import React from 'react'
-
+import products from "../assets/products";
+import ProductCard from "../components/productCard";
 const Women = () => {
-  return (
-    <div>Women</div>
-  )
-}
+  const womenProducts = products.filter(
+    (product) => product.category === "Women"
+  );
 
-export default Women
+  return (
+    <section className="p-4">
+      <h1 className="text-3xl font-bold mb-6">
+        Women's Collection
+      </h1>
+
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        {womenProducts.map((product) => (
+          <ProductCard
+            key={product.id}
+            product={product}
+          />
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Women;
