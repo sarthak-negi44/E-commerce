@@ -2,7 +2,10 @@
 import {Search, Heart, User, ShoppingCart} from 'lucide-react'
 import Navbar from './Navbar';
 //import logo from '../../assets/logos.jpeg'
+import { useSearch } from '../../context/searContext';
 const Header = () => {
+  const { search, setSearch } = useSearch();
+
   return (
     <>
     <header className="flex items-center justify-between px-3 sm:px-30 bg-amber-50 dark:bg-gray-900/30  shadow-md p-4">
@@ -11,6 +14,8 @@ const Header = () => {
   <div className="flex items-center w-40 sm:w-60 md:w-72  transition-all active:scale-90 active:opacity-50">
     <input
       type="text"
+      value={search}
+      onChange={(e) => setSearch(e.target.value)}
       placeholder="Search..."
       className="w-full h-9 sm:h-10 rounded-full bg-gray-100 px-3 outline-none"
     />

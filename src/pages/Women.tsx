@@ -1,9 +1,17 @@
 import products from "../assets/products";
 import ProductCard from "../components/productCard";
+import { useSearch } from "../context/searContext";
 const Women = () => {
-  const womenProducts = products.filter(
-    (product) => product.category === "Women"
-  );
+  const { search } = useSearch();
+
+  const womenProducts = products.filter((product) => {
+    const matchesSearch = product.name
+      .toLowerCase()
+      .includes(search.toLowerCase());
+
+    return product.category === "Women" && matchesSearch;
+  });
+
 
   return (
     <section className="p-4">
