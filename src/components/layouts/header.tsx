@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <>
-    <header className="flex items-center justify-between px-3 sm:px-30 bg-amber-50 dark:bg-gray-900/30  shadow-md p-4">
+    <header className="flex items-center justify-between px-3 sm:px-30 bg-amber-50 dark:bg-gray-900/30  shadow-md p-4 position: sticky top-0 z-50">
   
   {/* Search */}
   <div className="flex items-center w-40 sm:w-60 md:w-72  transition-all active:scale-90 active:opacity-50">

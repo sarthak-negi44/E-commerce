@@ -36,16 +36,34 @@ const Navbar = () => {
         className="transition-all active:scale-90 active:opacity-50"
         to="/products"
       >
-        Products
+        Blog
       </Link>
 
       <Link
         className="transition-all active:scale-90 active:opacity-50"
         to="/about"
       >
-        About
+        About Us
       </Link>
-
+     
+      <Link
+        className="transition-all active:scale-90 active:opacity-50"
+        to="/fashion"
+      >
+        Fashion
+      </Link>
+      <Link
+        className="transition-all active:scale-90 active:opacity-50"
+        to="/cosmatics"
+      >
+        Cosmatics
+      </Link>
+       <Link
+        className="transition-all active:scale-90 active:opacity-50"
+        to="/contact Us"
+      >
+        Contact Us
+      </Link>
     </div>
   );
 };

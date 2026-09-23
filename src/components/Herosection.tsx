@@ -14,7 +14,7 @@ const Herosection = () => {
             className="w-full h-auto lg:h-full object-contain lg:object-cover"
           />
 
-          <div className="absolute left-5 lg:left-25 top-1/2 -translate-y-1/2 z-10">
+          <div className="absolute left-20 lg:left-25 top-1/2 -translate-y-1/2 z-10">
             <p className="text-white">SPECIAL OFFER</p>
 
             <h1 className="text-2xl lg:text-3xl font-bold text-white">

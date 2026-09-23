@@ -4,8 +4,11 @@ import Home from './pages/Home';
 import Men from './pages/Men';
 import Women from './pages/Women';
 import Shop from './pages/Shop';
-import Products from './pages/Products';
+import Blog from './pages/Blog';
 import About from './pages/About';
+import Contactus from './pages/Contactus';
+import Fashion from './pages/Fashion';
+import Cosmatics from './pages/Cosmatics';
 import { SearchProvider } from './context/searContext';
 
 const App = () => {
@@ -19,8 +22,11 @@ const App = () => {
           <Route path="/men" element={<Men />} />
           <Route path="/women" element={<Women />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact Us" element={<Contactus />} />
+          <Route path="/fashion" element={<Fashion />} />
+          <Route path="/cosmatics" element={<Cosmatics />} />
         </Routes>
       </BrowserRouter>
     </SearchProvider>
