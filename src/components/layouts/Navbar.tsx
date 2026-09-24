@@ -55,8 +55,8 @@ export default function Navbar() {
               About Us
             </a>
 
-            <a href="/cosmetic" className="transition hover:text-gray-200">
-              Cosmetic
+            <a href="/cosmetics" className="transition hover:text-gray-200">
+              Cosmetics
             </a>
 
             <a href="/shop" className="transition hover:text-gray-200">
@@ -124,7 +124,7 @@ export default function Navbar() {
               </a>
 
               <a
-                href="/cosmetic"
+                href="/cosmetics"
                 className="border-b border-white/10 py-3"
               >
                 Cosmetic

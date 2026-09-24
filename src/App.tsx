@@ -8,7 +8,7 @@ import Blog from './pages/Blog';
 import About from './pages/About';
 import Contactus from './pages/Contactus';
 import Fashion from './pages/Fashion';
-import Cosmatics from './pages/Cosmatics';
+import Cosmetics from './pages/Cosmatics';
 import { SearchProvider } from './context/searContext';
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact Us" element={<Contactus />} />
           <Route path="/fashion" element={<Fashion />} />
-          <Route path="/cosmatics" element={<Cosmatics />} />
+          <Route path="/cosmetics" element={<Cosmetics />} />
         </Routes>
       </BrowserRouter>
     </SearchProvider>
