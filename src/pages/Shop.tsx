@@ -4,7 +4,7 @@ import { useSearch } from "../context/searContext";
 const Shop = () => {
   const { search } = useSearch();
 
-  const menProducts = products.filter((product) => {
+  const allProducts = products.filter((product) => {
     const matchesSearch = product.name
       .toLowerCase()
       .includes(search.toLowerCase());
@@ -20,7 +20,7 @@ const Shop = () => {
       </h1>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        {menProducts.map((product: (typeof products)[number]) => (
+        {allProducts.map((product: (typeof products)[number]) => (
           <ProductCard
             key={product.id}
             product={product}

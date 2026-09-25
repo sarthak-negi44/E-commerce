@@ -10,6 +10,7 @@ import Contactus from './pages/Contactus';
 import Fashion from './pages/Fashion';
 import Cosmetics from './pages/Cosmatics';
 import { SearchProvider } from './context/searContext';
+import CosmeticsCollection from './cosmetics-routes/cosmetics-collection';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/contact Us" element={<Contactus />} />
           <Route path="/fashion" element={<Fashion />} />
           <Route path="/cosmetics" element={<Cosmetics />} />
+          <Route path="/cosmetics-collection" element={<CosmeticsCollection />} />
         </Routes>
       </BrowserRouter>
     </SearchProvider>

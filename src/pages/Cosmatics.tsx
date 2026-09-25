@@ -1,3 +1,6 @@
+import cosmeticProducts from "../assets/cosmeticsdata";
+import CosmeticsCollection from "../cosmetics-routes/cosmetics-collection";
+import {Link} from "react-router-dom";
 const Cosmetics = () => {
   return (
     <div className="min-h-screen bg-[#f5eee6] text-[#3b2920]">
@@ -19,9 +22,12 @@ const Cosmetics = () => {
             your everyday style and routine.
           </p>
 
-          <button className="mt-8 rounded-full bg-[#3b2920] px-7 py-3 text-sm sm:text-base text-white transition hover:bg-[#51382b]">
-            Explore Collection
-          </button>
+        <Link
+  to="/cosmetics-collection"
+  className="mt-8 inline-block rounded-full bg-[#3b2920] px-7 py-3 text-sm sm:text-base text-white transition hover:bg-[#51382b]"
+>
+  Explore Collection
+</Link>
 
         </div>
       </section>
