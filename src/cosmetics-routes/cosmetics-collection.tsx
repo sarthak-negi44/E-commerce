@@ -1,6 +1,7 @@
-import CosmeticsCard from "../components/cosmeticsCard";
-import cosmeticsdata from "../assets/cosmeticsdata";
 
+import cosmeticsdata from "../assets/cosmeticsdata";
+import ProductCard from "../components/productCard";
+import {Link} from "react-router-dom";
 const CosmeticsCollection = () => {
   return (
     <div className="min-h-screen bg-[#f5eee6] px-4 py-10">
@@ -27,27 +28,27 @@ const CosmeticsCollection = () => {
           All
         </button>
 
-        <button className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
+        <Link to="/skincare" className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
           Skincare
-        </button>
+        </Link>
 
-        <button className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
+        <Link to="/makeup" className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
           Makeup
-        </button>
+        </Link>
 
-        <button className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
+        <Link to="/hair-care" className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
           Hair Care
-        </button>
+        </Link>
 
-        <button className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
+        <Link to="/body-care" className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
           Body Care
-        </button>
+        </Link>
       </div>
 
       {/* Products */}
       <div className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {cosmeticsdata.map((product) => (
-          <CosmeticsCard
+          <ProductCard
             key={product.id}
             product={product}
           />

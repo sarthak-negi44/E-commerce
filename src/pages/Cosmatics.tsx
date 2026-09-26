@@ -1,5 +1,4 @@
-import cosmeticProducts from "../assets/cosmeticsdata";
-import CosmeticsCollection from "../cosmetics-routes/cosmetics-collection";
+
 import {Link} from "react-router-dom";
 const Cosmetics = () => {
   return (

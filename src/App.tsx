@@ -11,6 +11,7 @@ import Fashion from './pages/Fashion';
 import Cosmetics from './pages/Cosmatics';
 import { SearchProvider } from './context/searContext';
 import CosmeticsCollection from './cosmetics-routes/cosmetics-collection';
+import Skincare from './cosmetics-routes/skincare';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/fashion" element={<Fashion />} />
           <Route path="/cosmetics" element={<Cosmetics />} />
           <Route path="/cosmetics-collection" element={<CosmeticsCollection />} />
+          <Route path="/skincare" element={<Skincare />} />
         </Routes>
       </BrowserRouter>
     </SearchProvider>

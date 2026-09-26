@@ -12,7 +12,7 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Hydrating Face Serum",
     price: 599,
     category: "Skincare",
-    image: "https://loremflickr.com/600/600/skincare,serum?lock=1",
+    image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600"
   },
   {
     id: 2,
