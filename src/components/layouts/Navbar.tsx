@@ -33,7 +33,7 @@ export default function Navbar() {
 
 
           {/* Desktop Links */}
-          <nav className="hidden flex-1 items-center justify-center gap-6 text-[11px] lg:flex xl:gap-10">
+          <nav className="hidden flex-1 items-center justify-center gap-6 text-[11px] lg:flex xl:gap-10 ">
 
             <a href="/" className="transition hover:text-gray-200">
               Home

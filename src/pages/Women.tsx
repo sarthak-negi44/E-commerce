@@ -14,8 +14,8 @@ const Women = () => {
 
 
   return (
-    <section className="p-4">
-      <h1 className="text-3xl font-bold mb-6">
+    <section className="p-4 bg-[#f5eee6] min-h-screen ">
+      <h1 className="text-3xl  uppercase tracking-[0.2em] text-[#8a6049] mb-6 bg-[#f5eee6] ">
         Women's Collection
       </h1>
 

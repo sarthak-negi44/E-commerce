@@ -3,7 +3,7 @@ import heroImage2 from "../assets/HeroImage2.jpg";
 import heroImage3 from "../assets/HeroImage3.webp";
 const Herosection = () => {
   return (
-    <section className="w-full h-auto lg:h-96 p-3 lg:p-4">
+    <section className="w-full h-hull lg:h-96 p-3 lg:p-4 bg-[#f5eee6] text-[#3b2920]">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-4 lg:h-full">
 
         {/* BIG LEFT IMAGE */}
