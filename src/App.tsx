@@ -11,7 +11,7 @@ import Fashion from './pages/Fashion';
 import Cosmetics from './pages/Cosmatics';
 import { SearchProvider } from './context/searContext';
 import CosmeticsCollection from './cosmetics-routes/cosmetics-collection';
-import Skincare from './cosmetics-routes/skincare';
+import Skincare from './cosmetics-routes/Skincare';
 
 const App = () => {
   return (
