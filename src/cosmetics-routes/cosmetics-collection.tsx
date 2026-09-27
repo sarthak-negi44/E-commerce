@@ -36,11 +36,11 @@ const CosmeticsCollection = () => {
           Makeup
         </Link>
 
-        <Link to="/hair-care" className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
+        <Link to="/haircare" className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
           Hair Care
         </Link>
 
-        <Link to="/body-care" className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
+        <Link to="/bodycare" className="rounded-full border border-[#3b2920] px-5 py-2 text-sm text-[#3b2920]">
           Body Care
         </Link>
       </div>
