@@ -64,9 +64,10 @@ const Cosmetics = () => {
               essentials.
             </p>
 
-            <button className="mt-5 text-sm font-medium underline underline-offset-4">
-              Explore
+               <button className="mt-5 text-sm font-medium underline underline-offset-4">
+              <Link to="/skincare" >Explore</Link>
             </button>
+
 
           </div>
 
@@ -85,10 +86,10 @@ const Cosmetics = () => {
             <p className="mt-2 text-sm leading-6 text-[#6b4b3a]">
               Everyday makeup essentials to complete your look.
             </p>
-
-            <button className="mt-5 text-sm font-medium underline underline-offset-4">
-              Explore
+   <button className="mt-5 text-sm font-medium underline underline-offset-4">
+              <Link to="/makeup" >Explore</Link>
             </button>
+
 
           </div>
 
@@ -109,7 +110,7 @@ const Cosmetics = () => {
             </p>
 
             <button className="mt-5 text-sm font-medium underline underline-offset-4">
-              Explore
+              <Link to="/haircare" >Explore</Link>
             </button>
 
           </div>
