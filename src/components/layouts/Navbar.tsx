@@ -67,7 +67,7 @@ export default function Navbar() {
               Blog
             </a>
 
-            <a href="/contact" className="transition hover:text-gray-200">
+            <a href="/contactus" className="transition hover:text-gray-200">
               Contact Us
             </a>
 
