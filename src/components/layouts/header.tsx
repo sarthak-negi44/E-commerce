@@ -5,14 +5,14 @@ export default function Header() {
   
   const { search, setSearch } = useSearch();
   return (
-    <header className="w-full bg-white">
+    <header className="w-full bg-[#f2e7dd]">
       {/* ================= TOP BAR ================= */}
       <div className="mx-auto flex h-16.25 w-full max-w-350 items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Search */}
-        <div className="flex w-45 items-center rounded-full border border-gray-200 bg-white px-3 py-1.5 sm:w-55 md:w-65">
+        <div className="flex w-45 items-center rounded-full border border-gray-200 bg-[#fcf9f7] px-3 py-1.5 sm:w-55 md:w-105">
           <input
             type="text"
-            placeholder="Search..."
+            placeholder="Search for products, brand and more..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="min-w-0 flex-1 bg-transparent text-[11px] outline-none placeholder:text-gray-400 sm:text-xs"
