@@ -35,11 +35,11 @@ export default function Header() {
 
         {/* Logo */}
         <a
-          href="/"
-          className="absolute left-1/2 -translate-x-1/2 text-[20px] font-semibold tracking-[2px] text-[#4b4542] sm:text-[24px] md:text-[28px]"
-        >
-          OLIVIA
-        </a>
+  href="/"
+  className="hidden min-[640px]:block absolute left-1/2 -translate-x-1/2 text-[8px] font-semibold tracking-[2px] text-[#3b2920]"
+>
+  OLIVIA
+</a>
 
         {/* Right Icons */}
         <div className="flex items-center gap-3 sm:gap-4">

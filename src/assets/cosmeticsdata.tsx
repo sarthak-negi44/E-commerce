@@ -7,7 +7,6 @@ interface CosmeticProduct {
 }
 
 const cosmeticProducts: CosmeticProduct[] = [
-
   {
     id: 1,
     name: "Hydrating Face Serum",
@@ -27,14 +26,14 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Vitamin C Face Serum",
     price: 699,
     category: "Skincare",
-    image: "https://images.unsplash.com/photo-1608248597369-2479e19662b6?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 4,
     name: "Gentle Face Cleanser",
     price: 349,
     category: "Skincare",
-    image: "https://images.unsplash.com/photo-1556228722-d119102377b7?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 5,
@@ -55,7 +54,7 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Hydrating Sheet Mask",
     price: 199,
     category: "Skincare",
-    image: "https://images.unsplash.com/photo-1567928269567-3c5811278433?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 8,
@@ -133,7 +132,7 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Liquid Eyeliner",
     price: 299,
     category: "Makeup",
-    image: "https://images.unsplash.com/photo-1620917670397-dc712cfc9780?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 19,
@@ -183,7 +182,7 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Hair Oil",
     price: 299,
     category: "Hair Care",
-    image: "https://images.unsplash.com/photo-1608248597369-2479e19662b6?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 26,
@@ -226,14 +225,14 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Body Lotion",
     price: 349,
     category: "Body Care",
-    image: "https://images.unsplash.com/photo-1608248597369-2479e19662b6?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 32,
     name: "Body Scrub",
     price: 399,
     category: "Body Care",
-    image: "https://images.unsplash.com/photo-1567928269567-3c5811278433?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 33,
@@ -289,7 +288,7 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Body Oil",
     price: 549,
     category: "Body Care",
-    image: "https://images.unsplash.com/photo-1608248597369-2479e19662b6?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=600&q=80",
   },
 
   {
@@ -297,7 +296,7 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Cleansing Balm",
     price: 649,
     category: "Skincare",
-    image: "https://images.unsplash.com/photo-1556228722-d119102377b7?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 42,
@@ -325,7 +324,7 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Niacinamide Serum",
     price: 599,
     category: "Skincare",
-    image: "https://images.unsplash.com/photo-1608248597369-2479e19662b6?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 46,
@@ -339,7 +338,7 @@ const cosmeticProducts: CosmeticProduct[] = [
     name: "Makeup Remover",
     price: 399,
     category: "Makeup",
-    image: "https://images.unsplash.com/photo-1556228722-d119102377b7?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 48,
@@ -363,6 +362,5 @@ const cosmeticProducts: CosmeticProduct[] = [
     image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80",
   },
 ];
-
 
 export default cosmeticProducts;
