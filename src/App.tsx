@@ -15,12 +15,14 @@ import Haircare from './cosmetics-routes/haircare';
 import Makeup from './cosmetics-routes/makup';
 import Bodycare from './cosmetics-routes/bodycare';
 import Skincare from './cosmetics-routes/Skincare';
+import Footer from './components/layouts/Footer';
 
 const App = () => {
   return (
     <SearchProvider>
       <BrowserRouter>
         <Header />
+        
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -38,6 +40,7 @@ const App = () => {
           <Route path="/haircare" element={<Haircare />} />
           <Route path="/bodycare" element={<Bodycare />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </SearchProvider>
   );
