@@ -379,7 +379,7 @@ const Home = () => {
               >
 
                 <div className="h-52 overflow-hidden">
-                  <img
+                  <img 
                     src={post.image}
                     alt={post.title}
                     className="h-full w-full object-cover transition duration-500 hover:scale-105"
