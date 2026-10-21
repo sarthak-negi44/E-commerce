@@ -1,7 +1,5 @@
 import type { Request, Response } from "express";
-import Cosmetics from "../models/Products.js";
-
-
+import Cosmetics from "../models/cosmetics.model.js";
 export const getCosmetic = async (_req: Request, res: Response) => {
   try {
     const cosmetics = await Cosmetics.find();

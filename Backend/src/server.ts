@@ -5,14 +5,16 @@ import productRoutes from "./routes/productRoutes.js";
 import cosmeticRoutes from "./routes/cosmeticRoute.js";
 import fashionRoutes from "./routes/fashionRoutes.js";
 import blogRoutes from "./routes/blogRoutes.js";
+import uploadRoutes from "./routes/uploadRoutes.js";
 const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/api/products", productRoutes);
-app.use("/api/cosmetis", cosmeticRoutes);
+app.use("/api/cosmetics", cosmeticRoutes);
 app.use("/api/fashions", fashionRoutes);
 app.use("/api/blogs", blogRoutes);
+app.use("/api/upload", uploadRoutes);
 
 const startServer = async () => {
   await connectDB();
