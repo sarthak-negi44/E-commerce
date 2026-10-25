@@ -16,7 +16,7 @@ export const uploadImage = async (
       cloudinary.uploader
         .upload_stream(
           { folder: "ecommerce" },
-          (error, result) => {
+          (error, result) => { 
             if (error) reject(error);
             else resolve(result);
           }
