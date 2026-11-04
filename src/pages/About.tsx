@@ -21,7 +21,6 @@ const About = () => {
           <h2 className="text-2xl sm:text-3xl font-semibold mb-4">
             Our Story
           </h2>
-
           <p className="text-gray-600 leading-7">
             We started with a simple idea — make fashion easier and more
             accessible. Our goal is to provide modern clothing that looks
